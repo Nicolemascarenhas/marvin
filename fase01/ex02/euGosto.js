@@ -1,4 +1,3 @@
 function euGosto(argumento) {
-    return "eu gosto de " + argumento;
+    return "Eu gosto de " + argumento;
 }
-
