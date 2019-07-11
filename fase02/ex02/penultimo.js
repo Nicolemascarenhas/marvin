@@ -1,3 +1,4 @@
-function penultimo(parâmetro){
-    return parâmetro.substr(-2,1);
+function penultimo(parametro){
+    return parametro.substr(-3,2);
 }
+
