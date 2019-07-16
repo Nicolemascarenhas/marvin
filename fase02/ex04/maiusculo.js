@@ -1,5 +1,7 @@
-function penultimo(palavra){
+function maiusculo(palavra){
   var nicole=palavra.substr(0,3);
-  palavra=nicole.toUpperCase()
+  var julia=nicole.toUpperCase()
+  var ultimas=palavra.substr(3);
+     return julia+ultimas
 }
 
