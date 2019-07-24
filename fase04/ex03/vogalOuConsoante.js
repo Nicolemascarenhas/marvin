@@ -1,25 +1,25 @@
 function vogalOuConsoante(letra){
     if (letra == "a")
-    return (Vogal);
+    return ("Vogal");
     if (letra == "e")
-    return (vogal);
+    return ("Vogal");
     if (letra == "i")
-    return (vogal);
+    return ("Vogal");
      if (letra == "o")
-    return (vogal);
+    return ("Vogal");
      if (letra == "u")
-    return (vogal);
+    return ("Vogal");
      if (letra == "A")
-    return (Vogal);
+    return ("Vogal");
     if (letra == "E")
-    return (vogal);
+    return ("Vogal");
     if (letra == "I")
-    return (vogal);
+    return ("Vogal");
      if (letra == "O")
-    return (vogal);
+    return ("Vogal");
      if (letra == "U")
-    return (vogal);
+    return ("Vogal");
  else {
-    return (Consoante);
+    return ("Consoante");
     }
 }
