@@ -20,6 +20,6 @@ function alfabetoMilitar(vogal){
     if (vogal=="U")
     return "uniform";
     else{
-        return "false";
+        return false;
     }
 }
