@@ -6,6 +6,12 @@ function abc(argumento){
     return true;
      if (primeira == "c")
     return true;
+     if (primeira == "A")
+    return true;
+     if (primeira == "B")
+    return true;
+     if (primeira == "C")
+    return true;
 else {
     return false
 }
