@@ -1,8 +1,8 @@
 function nove(num1){
     var mudar = num1.toString();
     if (mudar.substr(-1,1) == 9){
-        return ("true");
+        return (true);
     }else{
-        return ("false");
+        return (false);
     }
 }
