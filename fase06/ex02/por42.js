@@ -1,7 +1,6 @@
 function por42(n1, n2){
-    var min;
-    var max;
-    
+    var min,max;
+    var multiplo=0;
     if (n1<n2) {
         min = n1
         max = n2
@@ -11,13 +10,15 @@ function por42(n1, n2){
         max=n1
 }
 while(min<=max){
-    console.log(min)
-    min++
+    if (min%42===0){
+    multiplo++
     }
-    if (min%42==0){
-        return min++42
-        }
-    
-
+    if (multiplo==2){
+    return min;
 }
-por42(0,100)
+min++
+}
+    console.log("Não encontrado")
+    return false;
+    }
+
